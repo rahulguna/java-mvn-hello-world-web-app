@@ -2,7 +2,7 @@
 security:
   pipeline:
     type: "Inline"
-    toolchain: "Synopsys"
+    toolchain: "OpenSource"
   sastScan:
     enabled: true
     rescanThreshold: 10
@@ -16,17 +16,12 @@ security:
   dastPlusM: false
 ---
 buildBreaker:
-  coverity: 
+  findbugs: 
     statusQuery: "new"
     overallSeverityQuery: "high"
     categoryQuery: "cross-site scripting"
     categorySeverityQuery: "medium"
-  blackduck:
-    statusQuery: "new"
-    overallSeverityQuery: "medium"
-    cveQuery: ""
-    componentQuery: ""
-  seeker:
+  owasp-zap:
     statusQuery: "new"
     overallSeverityQuery: "critical"
     categoryQuery: "SQL Injection"
