@@ -18,7 +18,6 @@ node{
    }
    stage('DAST'){
       sh "echo DAST"
-      //sh "/home/rahulguna/Downloads/ZAP_2.9.0_Linux/ZAP_2.9.0"
-      //sh "java -jar /home/rahulguna/Downloads/ZAP_2.9.0_Linux/ZAP_2.9.0/zap-2.9.0.jar -host localhost -port 8081 -cmd -quickurl http://localhost:8082 -quickprogress -quickout /home/rahulguna/Documents/zap_report.xml"
+      sh "java -jar /home/rahulguna/Downloads/ZAP_2.9.0_Linux/ZAP_2.9.0/zap-2.9.0.jar -host localhost -port 8081 -cmd -quickurl http://localhost:8082/mvn-hello-world/ -quickprogress -quickout /home/rahulguna/Documents/zap_report.xml"
    }
 }
