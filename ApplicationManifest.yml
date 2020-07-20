@@ -18,12 +18,12 @@ application:
   fileChangeThreshold: 20
 
 environment:
-  scm: GitLab
-  gitlabHostUrl: "https://sig-gitlab.internal.synopsys.com/"
-  gitlabToken: "eNFmjaTxT9nsvd3nuvFr"
-  scmOwner: "akshayme"
-  scmRepositoryName: "Stargazer-IQ"
-  scmBranchName: "stargazer-on-stargazer"
+  scm: GitHub
+  gitlabHostUrl: "https://github.com/"
+  gitlabToken: "87780d41d5aa59bc7426a42b24b88d84b42be4c3"
+  scmOwner: "rahulguna"
+  scmRepositoryName: "rahulguna/java-mvn-hello-world-web-app"
+  scmBranchName: "master"
   testDeploymentRoot: "Stargazer-IQ"
   imChannelIdentifier: "#stargazer-notifications"
   jiraProjectName: "DEM"
