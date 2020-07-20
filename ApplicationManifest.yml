@@ -20,7 +20,7 @@ application:
 environment:
   scm: GitHub
   gitlabHostUrl: "https://github.com/"
-  gitlabToken: "87780d41d5aa59bc7426a42b24b88d84b42be4c3"
+  gitlabToken: "sample"
   scmOwner: "rahulguna"
   scmRepositoryName: "rahulguna/java-mvn-hello-world-web-app"
   scmBranchName: "master"
