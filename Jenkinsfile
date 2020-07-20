@@ -6,7 +6,7 @@ node{
    }
    // This stage is used to perform maven clean package build, so the war file is created.
    stage('Mvn Package'){
-     sh "sudo mvn clean install"
+     sh "mvn clean install"
    }
    stage('SAST'){
       sh "echo SAST"
