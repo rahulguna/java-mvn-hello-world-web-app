@@ -28,3 +28,4 @@ environment:
   imChannelIdentifier: "#stargazer-notifications"
   jiraProjectName: "DEM"
   jiraIssuesQuery: "resolution = \"Unresolved\" AND labels in (Security, Defect)"
+
